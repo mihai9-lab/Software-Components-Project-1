@@ -1,0 +1,14 @@
+{
+  "name": "db-json",
+  "version": "1.0.0",
+  "description": "Implementation of database working with json files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mihailo Milicevic",
+  "license": "ISC",
+  "dependencies": {
+    "multi-format-db": "file:../multi-format-db"
+  }
+}

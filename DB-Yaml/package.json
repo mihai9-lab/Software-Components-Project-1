@@ -1,0 +1,15 @@
+{
+  "name": "db-yaml",
+  "version": "1.0.0",
+  "description": "Database driver intended for YAML files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mihailo Milicevic",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "multi-format-db": "file:../multi-format-db"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "db-cpymi",
+  "version": "1.0.0",
+  "description": "Custom Cpymi format for db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mihailo.milicevic",
+  "license": "ISC",
+  "dependencies": {
+    "multi-format-db": "file:../multi-format-db"
+  }
+}

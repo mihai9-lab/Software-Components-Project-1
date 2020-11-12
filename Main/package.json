@@ -1,0 +1,19 @@
+{
+  "name": "db-client",
+  "version": "1.0.0",
+  "description": "User interface for multi-format-db",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "genDocs": "jsdoc ../Multi-Format-DB/index.js ../Multi-Format-DB/interfaces/db_interface.js -d ../Documentation",
+    "build": "pkg . -t node12.18.1-win --out-path ../Builds"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "db-cpymi": "file:../db-cpymi",
+    "db-json": "file:../db-json",
+    "db-yaml": "file:../db-yaml",
+    "multi-format-db": "file:../multi-format-db"
+  }
+}

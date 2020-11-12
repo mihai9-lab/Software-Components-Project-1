@@ -1,0 +1,11 @@
+{
+  "name": "multi-format-db",
+  "version": "1.0.0",
+  "description": "A database specification that accepts multiple different implementations as long as it supports interface ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mihailo Milicevic",
+  "license": "ISC"
+}
